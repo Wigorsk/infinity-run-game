@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Infinity Run</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <main class="gameBoard"> <!--ÁREA PRINCIPAL DO JOGO-->
+            
+            <header><h4 id="pressToStart">pressione qualquer tecla para começar</h4></header>
+
+            <section> <!--PONTUAÇÃO VISÍVEL-->
+                <div id="score"><span style="opacity: .3;">00</span></div>
+            </section>
+
+            <figure> <!--IMAGENS DO JOGO-->
+
+                <img src="assets/images/cenario/meteor.gif" id="meteor"> <!--CENÁRIO-->
+                
+                <img src="assets/images/cenario/flower.gif" id="flowerOne"> <!--CENÁRIO-->
+                <img src="assets/images/cenario/flower.gif" id="flowerTwo"> <!--CENÁRIO-->
+
+                <img src="assets/images/cenario/clouds.gif" id="clouds"> <!--CENÁRIO-->
+                
+                <img src="assets/images/character/front.gif" id="character"> <!--PERSONAGEM-->
+
+                <img src="assets/images/character/loser.gif" id="death"> <!--PERSONAGEM MORTO-->
+
+                <img src="assets/images/stone.gif" id="stone"> <!--INIMIGO-->
+
+                <img src="assets/images/passaro/alive.gif" id="bird"> <!--INIMIGO-->
+
+            </figure>
+
+            <div id="white"></div> <!--FUNDO BRANCO-->
+
+            <div id="background"></div> <!--FUNDO PRETO-->
+
+            <section class="loserMenu"> <!--TELA DE GAME OVER-->
+         
+                <h1 style="font-size: 8rem;">Game Over</h1>
+                <h3>Pontuação final</h3>
+                <div id="finalScore"><span>00</span></div>
+        
+            </section>
+            
+        </main>
+
+        <aside id="refreshPage">atualize a página para jogar novamente</aside>
+
+    </div>
+
+    <footer> <!--RODAPÉ DA PÁGINA-->
+
+        <header><h1>Infinity Run</h1></header> <!--TÍTULO-->
+
+        <div class="text">
+            <p>jogo desenvolvido a fim de estudos, podendo receber futuras atualizações</p>
+            <p> --- criado com html, css e javascript --- </p>
+        </div>
+
+        <!--LINK DO INSTAGRAM-->
+        <div class="link"><p>Wigor Skorek</p><a href="https://www.instagram.com/wigorsk/" target="_blank"><img style="width: 20px;" src="assets/images/instagram.gif"></a></div>
+
+        <a href="https://www.aseprite.org/" style="text-decoration: none; color: #fff;">
+            <p class="aseprite">desenhos feitos em <u>Aseprite</u></p>
+        </a>
+
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
